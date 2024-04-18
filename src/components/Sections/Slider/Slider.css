@@ -1,0 +1,32 @@
+.section-slider__wrapper {
+	position: relative;
+}
+
+.section-slider__controls {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.section-slider__controls button {
+	color: white;
+	transition: all 0.5s;
+	background-color: #213547;
+}
+
+.section-slider__controls button:hover {
+	background: white;
+	color:  #213547;
+	letter-spacing: 5px;
+	-webkit-box-shadow: 10px 86px 0px 0px  #213547;
+	box-shadow: 10px 8px 0px 0px  #213547;
+	border: none;
+}
+
+.section-slider__gif {
+	position: absolute;
+	bottom: 300px;
+	left: 15%;
+	z-index: -1;
+}

@@ -1,0 +1,12 @@
+.gaucho__mate{
+    animation: rotate 0.4s  infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(-5deg);
+    }
+    to {
+        transform: rotateX(5deg);
+    }
+}

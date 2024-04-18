@@ -1,0 +1,15 @@
+.thermo {
+  position: absolute;
+  right: 0;
+  top: -60%;
+  animation: moveUp 1s linear forwards; /* Adjust the duration as needed */
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-70%);
+  }
+}

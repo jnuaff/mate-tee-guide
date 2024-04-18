@@ -1,0 +1,26 @@
+.section-quizz p {
+	margin-top: 20px;
+}
+
+.quizz__options {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+}
+
+.quizz__option {
+	cursor: pointer;
+	background-color: #213547;
+	color: #f2f2f2;
+	padding: 10px 20px;
+}
+
+.quizz__option:hover {
+	background-color: #f2f2f2;
+	color:  #213547;
+}
+
+.quizz__option--gessed {
+	background-color: #f2f2f2;
+	color:  #213547;
+}

@@ -1,0 +1,26 @@
+.teaser-facts{
+	position: relative;
+}
+
+.teaser-facts img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 300px;
+}
+
+.teaser-facts__facts {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+
+.teaser-facts__fact h3 {
+	margin-bottom: 15px;
+}
+
+.teaser-facts__fact p {
+	font-size: 1.5rem;
+	margin: 0;
+}

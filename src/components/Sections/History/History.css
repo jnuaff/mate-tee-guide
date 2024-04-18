@@ -1,0 +1,25 @@
+.section-history__gallery {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+
+.gallery__item {
+	cursor: pointer;
+	transition: transform 0.3s ease-in-out;
+}
+
+.mapuches {
+	transform: rotate(-5deg);
+	width: 300px;
+	height: 400px;
+}
+
+.soldiers {
+	transform: rotate(10deg);
+	width: 300px;
+	height: 500px;
+}
+.gallery__item:hover {
+	transform: scale(1.1);
+}

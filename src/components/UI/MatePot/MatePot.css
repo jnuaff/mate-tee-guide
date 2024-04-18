@@ -1,0 +1,25 @@
+.drops{
+    animation: moveDown 1s linear infinite;
+}
+
+  @keyframes moveDown {
+    from {
+      transform: translateY(-10px); 
+    }
+    to {
+      transform: translateY(50px);
+    }
+  }
+  
+.straw-appear{
+  animation: moveLeftRight 1s linear;
+}
+
+@keyframes moveLeftRight {
+  from {
+    transform: translate(-20%, -20%);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}

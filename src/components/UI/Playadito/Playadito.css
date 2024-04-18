@@ -1,0 +1,12 @@
+.playadito {
+    animation: moveLeft 1s linear forwards;
+  }
+  
+  @keyframes moveLeft {
+    from {
+      transform: translateX(70%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
