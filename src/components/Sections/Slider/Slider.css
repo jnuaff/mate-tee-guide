@@ -1,5 +1,7 @@
 .section-slider__wrapper {
-	position: relative;
+	height: 600px;
+	overflow: hidden;
+ 
 }
 
 .section-slider__controls {
@@ -7,6 +9,10 @@
 	justify-content: center;
 	align-items: center;
 	gap: 1rem;
+}
+
+.slider-item__item{
+	display: flex;
 }
 
 .section-slider__controls button {

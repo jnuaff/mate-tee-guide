@@ -1,4 +1,7 @@
 import './History.css';
+import soldados from '../../../assets/soldados.jpg';
+import mapuches from '../../../assets/mapuches.jpg';
+import dr_france from '../../../assets/dr_france.jpg';
 
 export const History = () => {
 	return (
@@ -8,7 +11,7 @@ export const History = () => {
 				<figure style={{ display: "flex" }}>
 					<picture>
 						<a href="https://es.wikipedia.org/wiki/Pueblo_mapuche" target="_blank">
-							<img className="gallery__item mapuches" src="src/assets/mapuches.jpg" alt="Mapuches" />
+							<img className="gallery__item mapuches" src={mapuches} alt="Mapuches" />
 						</a>
 					</picture>
 					<figcaption style={{ writingMode: "vertical-lr", transform: "rotate(-5deg)" }}>Mapuches trinken Mate</figcaption>
@@ -18,8 +21,8 @@ export const History = () => {
 						<a href="https://es.wikipedia.org/wiki/Jos%C3%A9_Gaspar_Rodr%C3%ADguez_de_Francia" target="_blank">
 							<img
 								className="gallery__item"
-								src="src/assets/dr_france.jpg"
-								alt="Mapuches"
+								src={dr_france}
+								alt="dr_france"
 								style={{ width: "250px", height: "360px" }}
 							/>
 						</a>
@@ -28,7 +31,7 @@ export const History = () => {
 				</figure>
 				<figure style={{ display: "flex" }}>
 					<picture>
-						<img className="gallery__item soldiers" src="src/assets/soldados.jpg" alt="Mapuches" />
+						<img className="gallery__item soldiers" src={soldados} alt="Mapuches" />
 					</picture>
 					<figcaption style={{ writingMode: "vertical-lr", transform: "rotate(10deg)" }}>
 						Soldaten am östlichen Ufer des Río de la Plata trinken Mate.

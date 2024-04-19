@@ -21,13 +21,15 @@ export const Slider = () => {
 			<h2>Zubereitung</h2>
 			<div className="section-slider__wrapper">
 				{currentStep === 0 && (
-					<img
-						src="https://media4.giphy.com/media/9VzvvB6jtrPeyRpVps/giphy.gif"
-						title="Source: Justin"
-						alt="Source: Justin"
-						draggable="false"
-						loading="eager"
-					/>
+					<>
+						<img
+							src="https://media4.giphy.com/media/9VzvvB6jtrPeyRpVps/giphy.gif"
+							title="Source: Justin"
+							alt="Source: Justin"
+							draggable="false"
+							loading="eager"
+						/>
+					</>
 				)}
 				{currentStep === 1 && (
 					<>
@@ -36,8 +38,11 @@ export const Slider = () => {
 				)}
 				{currentStep === 2 && (
 					<>
-						<MatePot currentStep={currentStep} />
-						<Playadito />
+						<div className="slider-item__item">
+							<MatePot currentStep={currentStep} />
+							<Playadito />
+						</div>
+
 						<p>Yerba in die Becher füllen</p>
 					</>
 				)}
