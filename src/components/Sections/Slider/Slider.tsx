@@ -62,14 +62,6 @@ export const Slider = () => {
 				{currentStep === 5 && (
 					<>
 						<MatePot currentStep={currentStep} />
-						<img
-							className="section-slider__gif"
-							src="https://media4.giphy.com/media/3o7bu1ZQ7C439mFzUI/giphy.gif"
-							title="Source: Justin"
-							alt="Source: Justin"
-							draggable="false"
-							loading="eager"
-						/>
 						<p>Genießen</p>
 					</>
 				)}
